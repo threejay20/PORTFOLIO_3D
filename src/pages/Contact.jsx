@@ -4,35 +4,33 @@ import emailjs from '@emailjs/browser'
 const Contact = () => {
   const formRef = useRef(null);
   const [form, setForm] = useState({ name:'', email: '', message: ''})
-  const [isLoading, setIsloading] = useState(false);
+  const [isLoading, setLoading] = useState(false);
 
   const handleChange = (e) => {
     setForm({...form, [e.target.name] : e.target.value })
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    setIsloading(true);
+    setLoading(true);
 
-    console.log(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID)
-    emailjs.send(
-      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-      import.meta.env.VITE_APP_EMAILJS_TEMPLATE_I,
-      { 
-        from_name: form.name,
-        to_name: "Justin",
-        from_email: form.email,
-        to_email: 'justinjjohnson20@gmail.com',
-        message: form.message
-      },
-      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+ 
+    
+    emailjs.send(import.meta.env.VITE_APP_EMAILJS_SERVICE_ID, import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID, {
+      from_name: form.name,
+      to_name: 'Justin',
+      from_email: form.email,
+      to_email: 'justinjjohnson20@gmail.com',
+      message: form.message,
+    },
+    import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
 
     ). then(() => {
-      setIsloading(false);
+      setLoading(false);
 
       setForm({ name: '', email: '', mesage: ''})
     }).catch ((error) => {
-      setIsloading(false);
+      setLoading(false);
       console.log(error)
     })
       
