@@ -12,11 +12,9 @@ const About = () => {
       <h1 className='head-text'>Hello, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Justin</span></h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>Experienced leader with 15+ years in call center environments, 
-          specializing in business administration, management, and operations. 
+        <p>Experienced leader with 15+ years in call center environments, specializing in business administration, management, and operations. 
           Certified in project management and microservices architecture. 
-          Skilled Full Stack Engineer, proficient in directing web application development for high-quality code and user satisfaction. 
-          Collaborates cross-functionally to design scalable software solutions and optimize call center performance using data analytics. 
+          Skilled Full Stack Engineer, proficient in directing web application development for high-quality code and user satisfaction.  
           Expert in creating sales training programs to boost cross-sell and retention rates. Committed to delivering value and open to new challenges.</p>
       </div>
 
