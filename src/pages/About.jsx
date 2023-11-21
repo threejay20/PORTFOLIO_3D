@@ -12,11 +12,14 @@ const About = () => {
       <h1 className='head-text'>Hello, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Justin</span></h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>Experienced leader with 15+ years in call center environments, specializing in business administration, management, and operations. 
-          Certified in project management and microservices architecture. 
-          Skilled Full Stack Engineer, proficient in directing web application development for high-quality code and user satisfaction.  
-          Expert in creating sales training programs to boost cross-sell and retention rates. Committed to delivering value and open to new challenges.</p>
-      </div>
+  <ul>
+    <li><strong>Experienced</strong> leader with 15+ years in call center environments, specializing in business administration, management, and operations.</li>
+    <li><strong>Certified</strong> in project management and microservices architecture.</li>
+    <li><strong>Skilled</strong> Full Stack Engineer, proficient in directing web application development for high-quality code and user satisfaction.</li>
+    <li><strong>Expert</strong> in creating sales training programs to boost cross-sell and retention rates.</li>
+    <li><strong>Committed</strong> to delivering value and open to new challenges.</li>
+  </ul>
+</div>
 
       <div className='py-10 flex flex-col'> 
       <h3 className='subhead-text'>My Skills</h3>
