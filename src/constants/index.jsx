@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { BellCanada, BellMedia, iqor, quantrics  } from "../assets/images";
 import {
     car,
     contact,
@@ -23,7 +23,9 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    dog,
+    dumbbell,
 } from "../assets/icons";
 
 export const skills = [
@@ -111,55 +113,55 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Full Stack Developer",
+        company_name: "Bell Media",
+        icon: BellMedia,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "Mar 2023 - Current",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+            "Directed and managed the development and maintenance of full-stack web applications using HTML, JavaScript, CSS, and Java, ensuring high-quality code delivery.",
+            "Collaborated with cross-functional teams in designing and implementing efficient, scalable software solutions, fostering a collaborative work environment that drove innovation and excellence.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Implemented comprehensive code review processes to identify and rectify bugs, maintaining strict code quality standards",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Senior Leader",
+        company_name: "Bell Canada",
+        icon: BellCanada,
+        iconBg: "#accbe1",
+        date: "Feb 2021 - Mar 2023",
+        points: [
+            "Determine call center operational strategies through needs assessments, performance reviews, capacity planning, and cost/benefit analyses.",
+            "Lead data analytics initiatives to enhance agent performance, resulting in a significant reduction in call center response time",
+            "Devise and publish metrics to measure organizational success, providing actionable insights for continuous improvement",
+            "Manage employee performance, set clear goals and objectives, and delegate functional leader responsibilities",
+        ],
+    },
+    {
+        title: "Manager, Training Delivery",
+        company_name: "Quantrics",
+        icon: quantrics,
+        iconBg: "#d8bfd8",
+        date: "Feb 2019 - Apr 2021",
+        points: [
+            "Designed and implemented a comprehensive sales training program, leading to an outstanding 110% improvement in cross-sell close rate performance within 18 months.",
+            "Successfully trained and developed teams of over 900 representatives, consistently driving them to meet and exceed monthly sales objectives.",
+            "Orchestrated seamless communication across organizational teams, segments, partners, and vendors to provide necessary support and coaching to agents, ensuring their success.",
+            "Championed business processes to determine key performance indicators (KPIs), incentives, and spearheaded blueprint improvements..",
+        ],
+    },
+    {
+        title: "Manager, Training Delivery",
+        company_name: "iQor",
+        icon: iqor,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Feb 2017 - Aug 2017 ",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Utilized performance management strategies to accurately forecast sales trends and create optimized schedules, resulting in a remarkable 10% sales increase within the initial 3 months",
+            "Developed and administered a comprehensive universal training curriculum, leveraging technology to enhance training programs for over 200 representatives.",
+            "Collaborated with department heads, operations management, key stakeholders, and employees to create educational materials and identify learning objectives.",
+            "Championed business processes to determine key performance indicators (KPIs), incentives, and spearheaded blueprint improvements.",
         ],
     },
 ];
@@ -186,43 +188,31 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'AdminApp',
+        description: 'Developed a web application designed to monitor and oversee a companys performance.',
+        link: 'https://react-admin-threejay20.vercel.app',
     },
     {
-        iconUrl: threads,
+        iconUrl: dumbbell,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Exercise App',
+        description: 'Web-based platform that allows users to search, learn, and watch specific exercises to ensure maximum fitness success',
+        link: 'https://gym-exercises-threejay20.vercel.app',
     },
     {
-        iconUrl: car,
+        iconUrl: dog,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Adopt-A-Pet',
+        description: 'A website designed to display a list of adorable animals that are available for adoption.',
+        link: 'https://adopt-pet-pearl.vercel.app',
     },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
+    
     {
         iconUrl: estate,
         theme: 'btn-back-black',
         name: 'Real-Estate Application',
         description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        link: 'https://real-estate-6emyb9iyq-threejay20.vercel.app',
     },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+  
 ];
