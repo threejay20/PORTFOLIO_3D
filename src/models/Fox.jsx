@@ -7,29 +7,40 @@ Title: Fox
 */
 
 
+// Importing necessary dependencies from React and react-three/drei library
 import React, { useRef, useEffect } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
 
+// Importing the 3D model file
 import scene from "../assets/3d/fox.glb";
 
-// 3D Model from: https://sketchfab.com/3d-models/fox-f372c04de44640fbb6a4f9e4e5845c78
+// Defining a React component named Fox, which represents a 3D fox model
 export function Fox({ currentAnimation, ...props }) {
+  // Creating a reference for the group that will contain the 3D model
   const group = useRef();
+
+  // Using the useGLTF hook to load the 3D model and extract nodes, materials, and animations
   const { nodes, materials, animations } = useGLTF(scene);
+
+  // Using the useAnimations hook to manage and control animations for the 3D model
   const { actions } = useAnimations(animations, group);
 
-  // This effect will run whenever the currentAnimation prop changes
+  // useEffect hook to handle changes in the currentAnimation prop
   useEffect(() => {
+    // Stopping all currently playing animations
     Object.values(actions).forEach((action) => action.stop());
 
+    // If the specified animation exists, play it
     if (actions[currentAnimation]) {
       actions[currentAnimation].play();
     }
   }, [actions, currentAnimation]);
 
+  // Rendering the 3D model as a group of skinnedMesh components
   return (
     <group ref={group} {...props} dispose={null}>
       <group name='Sketchfab_Scene'>
+        {/* Using primitive and skinnedMesh components to render different parts of the 3D model */}
         <primitive object={nodes.GLTF_created_0_rootJoint} />
         <skinnedMesh
           name='Object_7'
@@ -65,4 +76,7 @@ export function Fox({ currentAnimation, ...props }) {
     </group>
   );
 }
+
+// Exporting the Fox component as the default export
 export default Fox;
+
