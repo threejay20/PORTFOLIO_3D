@@ -26,6 +26,7 @@ import {
     typescript,
     dog,
     dumbbell,
+    chart,
 } from "../assets/icons";
 
 export const skills = [
@@ -193,7 +194,7 @@ export const projects = [
         link: 'https://e-commerce-threejay.payloadcms.app/',
     },
     {
-        iconUrl: pricewise,
+        iconUrl: chart,
         theme: 'btn-back-red',
         name: 'AdminApp',
         description: 'Developed a web application designed to monitor and oversee a companys performance.',

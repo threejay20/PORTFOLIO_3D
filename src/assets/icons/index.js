@@ -28,6 +28,7 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import dog from './dog.svg'
 import dumbbell from './dumbbell.svg'
+import chart from './chart.svg'
 
 export {
     css,
@@ -60,4 +61,5 @@ export {
     soundoff,
     dog,
     dumbbell,
+    chart,
 }
