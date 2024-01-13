@@ -187,6 +187,13 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: pricewise,
+        theme: 'btn-back-green',
+        name: 'Tech Haven',
+        description: 'Created an e-commerce platform specializing in technology gadgets.',
+        link: 'https://e-commerce-threejay.payloadcms.app/',
+    },
+    {
+        iconUrl: pricewise,
         theme: 'btn-back-red',
         name: 'AdminApp',
         description: 'Developed a web application designed to monitor and oversee a companys performance.',
@@ -214,5 +221,6 @@ export const projects = [
         description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
         link: 'https://real-estate-6emyb9iyq-threejay20.vercel.app',
     },
+    
   
 ];
