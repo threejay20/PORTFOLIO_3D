@@ -27,6 +27,7 @@ import {
     dog,
     dumbbell,
     chart,
+    dashboard,
 } from "../assets/icons";
 
 export const skills = [
@@ -190,21 +191,21 @@ export const projects = [
         iconUrl: pricewise,
         theme: 'btn-back-black',
         name: 'Tech Haven',
-        description: 'Created an e-commerce platform specializing in technology gadgets.',
+        description: 'Constructed an exceptional e-commerce webshop featuring an admin dashboard and robust CMS functionality utilizing Next.js 14, Stripe for seamless payments, TypeScript for enhanced reliability, and Payload CMS for efficient content management.',
         link: 'https://e-commerce-threejay.payloadcms.app/',
     },
     {
-        iconUrl: chart,
+        iconUrl: dashboard,
         theme: 'btn-back-red',
-        name: 'AdminApp',
-        description: 'Developed a web application designed to monitor and oversee a companys performance.',
-        link: 'https://react-admin-threejay20.vercel.app',
+        name: 'Dashboard',
+        description: 'Developed an administrative dashboard featuring complete authentication functionality, a homepage presenting charts and recent activities, an extensive table for managing companies with Create, Read, Update, and Delete operations alongside search capabilities, and a Kanban board offering real-time synchronization, all implemented using the Refine Framework.',
+        link: 'https://justinsdashboard.vercel.app/',
     },
     {
         iconUrl: dumbbell,
         theme: 'btn-back-green',
         name: 'Exercise App',
-        description: 'Web-based platform that allows users to search, learn, and watch specific exercises to ensure maximum fitness success',
+        description: 'Created and deployed a cutting-edge fitness exercises application using React 18, integrated with APIs from RapidAPI for enhanced functionality and seamless user experience.',
         link: 'https://gym-exercises-threejay20.vercel.app',
     },
     {
@@ -219,8 +220,15 @@ export const projects = [
         iconUrl: estate,
         theme: 'btn-back-yellow',
         name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+        description: 'Showcased ReactJS and NextJS skills by building Realtor - an impressive Real Estate Application. With rental homes and for-sale properties, advanced property filtering, property details page with an image carousel, and much more.',
         link: 'https://real-estate-6emyb9iyq-threejay20.vercel.app',
+    },
+    {
+        iconUrl: chart,
+        theme: 'btn-back-red',
+        name: 'AdminApp',
+        description: 'Developed a web application designed to monitor and oversee a companys performance.',
+        link: 'https://react-admin-threejay20.vercel.app',
     },
     
   

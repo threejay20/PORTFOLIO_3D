@@ -29,6 +29,7 @@ import soundoff from './soundoff.png'
 import dog from './dog.svg'
 import dumbbell from './dumbbell.svg'
 import chart from './chart.svg'
+import dashboard from './dashboard.svg'
 
 export {
     css,
@@ -62,4 +63,5 @@ export {
     dog,
     dumbbell,
     chart,
+    dashboard
 }
