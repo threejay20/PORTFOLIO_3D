@@ -17,7 +17,7 @@ const renderContent = {
         <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
             Hi, I am <span className="font-semibold">Justin </span>  👋
             <br/> 
-            A Highly Skilled Leader from Canada now residing in the Philippines.
+            A highly skilled leader with a knack for achieving goals and inspiring teams, I also happen to be a full stack developer. With a diverse background and a passion for both leadership and technology, I bring a unique perspective to every project. Let's embark on a journey of collaboration and success together!
         </h1>
     ),
     2: (
