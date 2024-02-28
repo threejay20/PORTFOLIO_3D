@@ -18,8 +18,7 @@ const renderContent = {
             Hi, I am <span className="font-semibold">Justin </span>  👋
             <br/> 
             A highly skilled leader with a knack for achieving goals and inspiring teams, I also happen to be a full stack developer.
-            <br/>
-             With a diverse background and a passion for both leadership and technology, I bring a unique perspective to every project. Let's embark on a journey of collaboration and success together!
+           
         </h1>
     ),
     2: (
