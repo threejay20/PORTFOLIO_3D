@@ -30,6 +30,7 @@ import dog from './dog.svg'
 import dumbbell from './dumbbell.svg'
 import chart from './chart.svg'
 import dashboard from './dashboard.svg'
+import brainwave from './brainwave.svg'
 
 export {
     css,
@@ -63,5 +64,6 @@ export {
     dog,
     dumbbell,
     chart,
-    dashboard
+    dashboard,
+    brainwave
 }
