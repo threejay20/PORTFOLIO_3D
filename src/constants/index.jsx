@@ -190,7 +190,7 @@ export const socialLinks = [
 export const projects = [
     {
         iconUrl: brainwave,
-        theme: 'btn-back-black',
+        theme: 'btn-back-pink',
         name: 'Brainwave',
         description: 'Developed and deployed a sleek UI/UX website with React and Tailwind CSS, showcasing seamless user experiences. Leveraging Reacts modularity and Tailwind CSSs utility-first approach.',
         link: 'https://3jaybrainwave.vercel.app/',
