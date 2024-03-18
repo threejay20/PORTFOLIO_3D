@@ -196,11 +196,11 @@ export const projects = [
         link: 'https://3jaybrainwave.vercel.app/',
     },
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-black',
-        name: 'Tech Haven',
-        description: 'Constructed an exceptional e-commerce webshop featuring an admin dashboard and robust CMS functionality utilizing Next.js 14, Stripe for seamless payments, TypeScript for enhanced reliability, and Payload CMS for efficient content management.',
-        link: 'https://e-commerce-threejay.payloadcms.app/',
+        iconUrl: chart,
+        theme: 'btn-back-red',
+        name: 'AdminApp',
+        description: 'Developed a web application designed to monitor and oversee a companys performance.',
+        link: 'https://react-admin-threejay20.vercel.app',
     },
     {
         iconUrl: dashboard,
@@ -232,11 +232,11 @@ export const projects = [
         link: 'https://real-estate-6emyb9iyq-threejay20.vercel.app',
     },
     {
-        iconUrl: chart,
-        theme: 'btn-back-red',
-        name: 'AdminApp',
-        description: 'Developed a web application designed to monitor and oversee a companys performance.',
-        link: 'https://react-admin-threejay20.vercel.app',
+        iconUrl: pricewise,
+        theme: 'btn-back-black',
+        name: 'Tech Haven',
+        description: 'Constructed an exceptional e-commerce webshop featuring an admin dashboard and robust CMS functionality utilizing Next.js 14, Stripe for seamless payments, TypeScript for enhanced reliability, and Payload CMS for efficient content management.',
+        link: 'https://e-commerce-threejay.payloadcms.app/',
     },
     
   
